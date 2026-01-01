@@ -1,0 +1,126 @@
+.service-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-base);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-xl);
+}
+
+.service-card__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden; /* Ensure anything exceeding the container height is hidden */
+    position: relative;
+}
+
+.service-card__content {
+    padding: var(--space-xl);
+}
+
+.service-card__title {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-md);
+    color: var(--color-secondary);
+}
+
+.service-card__description {
+    color: var(--color-text-light);
+    margin-bottom: var(--space-lg);
+    line-height: var(--leading-relaxed);
+}
+
+.stat-card {
+    text-align: center;
+    padding: var(--space-xl);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-base);
+}
+
+.stat-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+.stat-card__number {
+    display: block;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    color: var(--color-primary);
+    line-height: 1;
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-heading);
+}
+
+.stat-card__label {
+    font-size: var(--text-base);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+}
+
+.testimonial-card {
+    background: var(--color-background-alt);
+    padding: var(--space-2xl);
+    border-radius: var(--radius-lg);
+    position: relative;
+    transition: all var(--transition-base);
+}
+
+.testimonial-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-5px);
+}
+
+.testimonial-card__content {
+    margin-bottom: var(--space-lg);
+    color: var(--color-text-light);
+    font-style: italic;
+    line-height: var(--leading-relaxed);
+}
+
+.testimonial-card__author {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.testimonial-card__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius-full);
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: var(--text-lg);
+}
+
+.testimonial-card__name {
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.testimonial-card__role {
+    font-size: var(--text-sm);
+    color: var(--color-text-lighter);
+}
+
+
+
+
+.service-card__img {
+    width: 100%;         /* Image matches container width */
+    height: 100%;        /* Image forced to match container height */
+    object-fit: fill;   /* Keeps proportions and crops the excess */
+    object-position: center; 
+    display: block;      /* Removes extra bottom space that images have */
+}
