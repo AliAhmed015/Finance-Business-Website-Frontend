@@ -17,10 +17,10 @@
 
 In today's digital-first world, financial consulting firms need more than just credibility—they need a compelling online presence that converts visitors into clients. This project addresses that need by delivering a pixel-perfect, conversion-optimized landing page that balances professionalism with modern design aesthetics.
 
-![Page 1](page%201.png)
-![Page 2](page%202.png)
-![Page 3](page%203.png)
-![Page 4](page%204.png)
+![Page 1](assets/page%201.png)
+![Page 2](assets/page%202.png)
+![Page 3](assets/page%203.png)
+![Page 4](assets/page%204.png)
 
 ### The Challenge
 
