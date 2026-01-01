@@ -9,8 +9,6 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Responsive](https://img.shields.io/badge/Responsive-Design-green?style=flat)](https://web.dev/responsive-web-design-basics/)
 
-[Live Demo](#) · [Report Bug](#) · [Request Feature](#)
-
 </div>
 
 ---
@@ -18,6 +16,11 @@
 ## 🎯 Project Overview
 
 In today's digital-first world, financial consulting firms need more than just credibility—they need a compelling online presence that converts visitors into clients. This project addresses that need by delivering a pixel-perfect, conversion-optimized landing page that balances professionalism with modern design aesthetics.
+
+![Page 1](./assets/page 1.png)
+![Page 2](./assets/page 2.png)
+![Page 3](./assets/page 3.png)
+![Page 4](./assets/page 4.png)
 
 ### The Challenge
 
